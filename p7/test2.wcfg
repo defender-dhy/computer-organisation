@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/86178/Desktop/Study/CO/p7/mips_txt_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_txt" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/mips_txt/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/exception_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">exception_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exception_count[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/interrupt_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">interrupt_counter[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/needInterrupt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">needInterrupt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">needInterrupt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/exception_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">exception_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exception_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/cp0/IntExcReq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IntExcReq</obj_property>
+      <obj_property name="ObjectShortName">IntExcReq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/cp0/HWInt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">HWInt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">HWInt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/cp0/IM" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">IM[15:10]</obj_property>
+      <obj_property name="ObjectShortName">IM[15:10]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/cp0/EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/cp0/EPCReg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPCReg[31:2]</obj_property>
+      <obj_property name="ObjectShortName">EPCReg[31:2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/cp0/epc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">epc[31:2]</obj_property>
+      <obj_property name="ObjectShortName">epc[31:2]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/mem_part/cp0/BDIn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">BDIn</obj_property>
+      <obj_property name="ObjectShortName">BDIn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_txt/uut/CPU/dp/EM/IntExcReq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IntExcReq</obj_property>
+      <obj_property name="ObjectShortName">IntExcReq</obj_property>
+   </wvobject>
+</wave_config>

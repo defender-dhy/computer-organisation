@@ -1,0 +1,65 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mips_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\ALU.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\ATControl.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\BrCmp.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\CdtWECmp.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\Control.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\Datapath.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\Dm.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\D_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\Ext.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\EXtoMEMreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\Ex_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\GRF.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\IDtoEXreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\IFtoIDreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\IFU.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\IF_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\MDU.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\MDU_tb.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\MEMtoWBreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\MEM_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\mips.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\mips_tb.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\MUX_4.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\NPCcalu.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\settings.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\TransStallController.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p6\test\p6_290\WB_part.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module IFU
+Compiling module IFtoIDreg
+Compiling module GRF
+Compiling module Ext
+Compiling module MUX_4
+Compiling module NPCcalu
+Compiling module Control
+Compiling module BrCmp
+Compiling module CdtWECmp
+Compiling module ATControl
+Compiling module D_part
+Compiling module IDtoEXreg
+Compiling module ALU
+Compiling module MDU
+Compiling module Ex_part
+Compiling module EXtoMEMreg
+Compiling module MUX_4(Width=8)
+Compiling module Dm
+Compiling module MEM_part
+Compiling module MEMtoWBreg
+Compiling module WB_part
+Compiling module Datapath
+Compiling module TransStallController
+Compiling module mips
+Compiling module mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 2 sub-compilation(s) to finish...
+Compiled 25 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 30620 KB
+Fuse CPU Usage: 1140 ms

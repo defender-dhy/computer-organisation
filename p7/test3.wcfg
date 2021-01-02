@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/86178/Desktop/Study/CO/p7/tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="19" />
+   <wvobject fp_name="/tb/addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interrupt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt</obj_property>
+      <obj_property name="ObjectShortName">interrupt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/exception_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">exception_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exception_count[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/interrupt_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">interrupt_counter[31:0]</obj_property>
+      <obj_property name="ObjectShortName">interrupt_counter[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/needInterrupt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">needInterrupt[31:0]</obj_property>
+      <obj_property name="ObjectShortName">needInterrupt[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/exception_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">exception_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">exception_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/mem_part/cp0/IntExcReq" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">IntExcReq</obj_property>
+      <obj_property name="ObjectShortName">IntExcReq</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/mem_part/cp0/EPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/EM/curPCOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/DE/curPCOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/FD/curPCOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/FD/curPCIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">curPCIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curPCIn[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/stall" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/ex_part/MDUBusy" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MDUBusy</obj_property>
+      <obj_property name="ObjectShortName">MDUBusy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/FD/InstrOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstrOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/d_part/MDUClass" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MDUClass</obj_property>
+      <obj_property name="ObjectShortName">MDUClass</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/uut/CPU/dp/d_part/Instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/86178/Desktop/Study/CO/p5/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/mem_part/Trans_MemRD_Sel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Trans_MemRD_Sel[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Trans_MemRD_Sel[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/mem_part/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/mem_part/Instr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Instr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/mem_part/GRFRData2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">GRFRData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GRFRData2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/d_part/grf/WriteAddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteAddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteAddr[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/d_part/grf/WData" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WData[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/wb_part/WriteA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">WriteA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WriteA[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/MW/GRFWDataOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">GRFWDataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">GRFWDataOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

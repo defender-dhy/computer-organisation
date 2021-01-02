@@ -1,0 +1,73 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe --nodebug --prj mips.prj -o mips.exe mips_tb 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 12
+Turning on mult-threading, number of parallel sub-compilation jobs: 24 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\ALU.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\ATControl.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\BrCmp.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\Control.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\Datapath.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\Dm.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\D_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\Ext.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\EXtoMEMreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\Ex_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\GRF.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\IDtoEXreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\IFtoIDreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\IFU.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\IF_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\MDU.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\MEMtoWBreg.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\MEM_part.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\mips.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\mips_tb.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\MUX_4.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\NPCcalu.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\settings.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\TransStallController.v" into library work
+Analyzing Verilog file "C:\Users\86178\Desktop\Study\CO\p5\test\WB_part.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\Datapath.v" Line 217: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\Datapath.v" Line 258: Port RegWrite is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\D_part.v" Line 144: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\D_part.v" Line 162: Port WriteA is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\Ex_part.v" Line 117: Port MemtoReg is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\Ex_part.v" Line 125: Port Tuse1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\MEM_part.v" Line 82: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\MEM_part.v" Line 91: Port Tuse1 is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\WB_part.v" Line 32: Port ALUSrc is not connected to this instance
+WARNING:HDLCompiler:1016 - "C:\Users\86178\Desktop\Study\CO\p5\test\WB_part.v" Line 37: Port Tuse1 is not connected to this instance
+Completed static elaboration
+Compiling module IFU
+Compiling module IFtoIDreg
+Compiling module GRF
+Compiling module Ext
+Compiling module MUX_4
+Compiling module NPCcalu
+Compiling module Control
+Compiling module BrCmp
+Compiling module ATControl
+Compiling module D_part
+Compiling module IDtoEXreg
+Compiling module ALU
+Compiling module MDU
+Compiling module Ex_part
+Compiling module EXtoMEMreg
+Compiling module MUX_4(Width=8)
+Compiling module Dm
+Compiling module MEM_part
+Compiling module MEMtoWBreg
+Compiling module WB_part
+Compiling module Datapath
+Compiling module TransStallController
+Compiling module mips
+Compiling module mips_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: 系统找不到指定的路径。, "isim\mips.exe.sim\libPortability.dll".
+Compiled 24 Verilog Units
+Built simulation executable mips.exe
+Fuse Memory Usage: 30600 KB
+Fuse CPU Usage: 859 ms

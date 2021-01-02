@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/86178/Desktop/Study/CO/p5/mips_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="mips_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/mips_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/d_part/ifBr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ifBr</obj_property>
+      <obj_property name="ObjectShortName">ifBr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/d_part/npccalu/NPC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">NPC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NPC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/d_part/npccalu/PC" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/FD/InstrIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstrIn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrIn[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/FD/InstrOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">InstrOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/mips_tb/uut/dp/FD/curPCOut" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">curPCOut[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

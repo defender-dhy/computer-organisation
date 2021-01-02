@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\86178\Desktop\Study\CO\p5\Datapath.v" Line 53: &lt;<arg fmt="%s" index="1">PC</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\86178\Desktop\Study\CO\p5\Datapath.v" Line 67: &lt;<arg fmt="%s" index="1">PC</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\86178\Desktop\Study\CO\p5\Datapath.v" Line 94: &lt;<arg fmt="%s" index="1">Waddr</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\86178\Desktop\Study\CO\p5\Datapath.v" Line 118: &lt;<arg fmt="%s" index="1">D_imm</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\86178\Desktop\Study\CO\p5\Datapath.v" Line 128: &lt;<arg fmt="%s" index="1">Alu_in1</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="new" >"C:\Users\86178\Desktop\Study\CO\p5\Datapath.v" Line 129: &lt;<arg fmt="%s" index="1">Alu_in2</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="598" delta="new" >"C:\Users\86178\Desktop\Study\CO\p5\Datapath.v" Line 21: Module &lt;<arg fmt="%s" index="1">Datapath</arg>&gt; ignored due to previous errors.
+</msg>
+
+</messages>
+

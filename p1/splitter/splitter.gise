@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="splitter.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_ttb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ALU_ttb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ALU_ttb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ALU_ttb_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="BC_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="BC_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="alu_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ext_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="ext_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="ext_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ext_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="gray_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="gray_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="splitter.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="splitter.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="splitter.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="splitter.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="splitter.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="splitter.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="splitter.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="splitter.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="splitter.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="splitter.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="splitter.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="splitter.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="splitter.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="splitter.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="splitter.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="splitter.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="splitter.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="splitter.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="splitter.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="splitter_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="splitter_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="splitter_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="splitter_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="splitter_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="splitter_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="splitter_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="splitter_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="splitter_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="splitter_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="splitter_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="splitter_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="splitter_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="splitter_xst.xrpt"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="string_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="string_tb_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="t2_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="t2_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="try2_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="try2_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="try2_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="try2_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="try_stx_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="try_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="try_tb_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1603518192" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1603518192">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604676844" xil_pn:in_ck="-6341259656439262067" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1604676844">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <outfile xil_pn:name="BC_tb.v"/>
+      <outfile xil_pn:name="BlockChecker.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="alu_tb.v"/>
+      <outfile xil_pn:name="ext.v"/>
+      <outfile xil_pn:name="ext_tb.v"/>
+      <outfile xil_pn:name="gray.v"/>
+      <outfile xil_pn:name="gray_tb.v"/>
+      <outfile xil_pn:name="splitter.v"/>
+      <outfile xil_pn:name="string.v"/>
+      <outfile xil_pn:name="string_tb.v"/>
+      <outfile xil_pn:name="t2_tb.v"/>
+      <outfile xil_pn:name="test.v"/>
+      <outfile xil_pn:name="test2.v"/>
+      <outfile xil_pn:name="test_func.v"/>
+      <outfile xil_pn:name="try.v"/>
+      <outfile xil_pn:name="try2.v"/>
+      <outfile xil_pn:name="try2_tb.v"/>
+      <outfile xil_pn:name="try_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1604676767" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-7537625647361933155" xil_pn:start_ts="1604676767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604676767" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-6970928758536102341" xil_pn:start_ts="1604676767">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1603518596" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-6720662483635949932" xil_pn:start_ts="1603518596">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604676847" xil_pn:in_ck="-6341259656439262067" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1604676847">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="BC_tb.v"/>
+      <outfile xil_pn:name="BlockChecker.v"/>
+      <outfile xil_pn:name="alu.v"/>
+      <outfile xil_pn:name="alu_tb.v"/>
+      <outfile xil_pn:name="ext.v"/>
+      <outfile xil_pn:name="ext_tb.v"/>
+      <outfile xil_pn:name="gray.v"/>
+      <outfile xil_pn:name="gray_tb.v"/>
+      <outfile xil_pn:name="splitter.v"/>
+      <outfile xil_pn:name="string.v"/>
+      <outfile xil_pn:name="string_tb.v"/>
+      <outfile xil_pn:name="t2_tb.v"/>
+      <outfile xil_pn:name="test.v"/>
+      <outfile xil_pn:name="test2.v"/>
+      <outfile xil_pn:name="test_func.v"/>
+      <outfile xil_pn:name="try.v"/>
+      <outfile xil_pn:name="try2.v"/>
+      <outfile xil_pn:name="try2_tb.v"/>
+      <outfile xil_pn:name="try_tb.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1604676850" xil_pn:in_ck="-6341259656439262067" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="5583556444931644041" xil_pn:start_ts="1604676847">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="try2_tb_beh.prj"/>
+      <outfile xil_pn:name="try2_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1604676850" xil_pn:in_ck="-5403188091779377962" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="786974349186987628" xil_pn:start_ts="1604676850">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="try2_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500700" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500700" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-2042641985507850004" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500700" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-6720662483635949932" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500700" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500700" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-9134624762355394802" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500700" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="3206529612922900429" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500700" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1416921332868120290" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500712" xil_pn:in_ck="-1689086715522548939" xil_pn:name="TRANEXT_xstsynthesize_virtex6" xil_pn:prop_ck="8799388000025673617" xil_pn:start_ts="1604500700">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="splitter.lso"/>
+      <outfile xil_pn:name="splitter.ngc"/>
+      <outfile xil_pn:name="splitter.ngr"/>
+      <outfile xil_pn:name="splitter.prj"/>
+      <outfile xil_pn:name="splitter.stx"/>
+      <outfile xil_pn:name="splitter.syr"/>
+      <outfile xil_pn:name="splitter.xst"/>
+      <outfile xil_pn:name="splitter_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500712" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="4784894190891095737" xil_pn:start_ts="1604500712">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500720" xil_pn:in_ck="5989044306287844285" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="-1107281394262259259" xil_pn:start_ts="1604500712">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="splitter.bld"/>
+      <outfile xil_pn:name="splitter.ngd"/>
+      <outfile xil_pn:name="splitter_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500744" xil_pn:in_ck="5989044306287844286" xil_pn:name="TRANEXT_map_virtex7" xil_pn:prop_ck="2100985583056581773" xil_pn:start_ts="1604500720">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="splitter.pcf"/>
+      <outfile xil_pn:name="splitter_map.map"/>
+      <outfile xil_pn:name="splitter_map.mrp"/>
+      <outfile xil_pn:name="splitter_map.ncd"/>
+      <outfile xil_pn:name="splitter_map.ngm"/>
+      <outfile xil_pn:name="splitter_map.xrpt"/>
+      <outfile xil_pn:name="splitter_summary.xml"/>
+      <outfile xil_pn:name="splitter_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500776" xil_pn:in_ck="1988802958427773399" xil_pn:name="TRANEXT_par_virtex5" xil_pn:prop_ck="-2283627392121029586" xil_pn:start_ts="1604500744">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="splitter.ncd"/>
+      <outfile xil_pn:name="splitter.pad"/>
+      <outfile xil_pn:name="splitter.par"/>
+      <outfile xil_pn:name="splitter.ptwx"/>
+      <outfile xil_pn:name="splitter.unroutes"/>
+      <outfile xil_pn:name="splitter.xpi"/>
+      <outfile xil_pn:name="splitter_pad.csv"/>
+      <outfile xil_pn:name="splitter_pad.txt"/>
+      <outfile xil_pn:name="splitter_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1604500776" xil_pn:in_ck="5989044306287844154" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1604500763">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="splitter.twr"/>
+      <outfile xil_pn:name="splitter.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

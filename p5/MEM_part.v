@@ -1,0 +1,101 @@
+`timescale 1ns / 1ps
+`default_nettype none
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    19:49:09 11/30/2020 
+// Design Name: 
+// Module Name:    Mem_part 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module MEM_part(
+    input wire clk,
+    input wire reset,
+    input wire [31:0] Instr,
+    input wire [31:0] PC,
+    input wire [31:0] MemAddr,
+    // Trans
+    input wire [31:0] GRFRData2,
+    input wire [31:0] W_GRFWData,
+    input wire [31:0] ALUResult,
+    input wire [1:0] Trans_MemRD_Sel,
+    output wire [31:0] GRFWData,
+    // A
+    output wire [4:0] ReadA1,
+    output wire [4:0] ReadA2,
+    output wire [4:0] WriteA,
+    output wire RegWrite
+    );
+
+    wire [31:0] MemRData;
+
+    Dm dm(
+        .clk(clk),
+        .reset(reset),
+        .WE(MemWrite),
+        .isMemb(isMemb),
+        .addr(MemAddr),
+        .WD(MemWData),
+        .PC(PC),
+        .RD(MemRData)
+    );
+
+    MUX_4 #32 WBDataMUX ( 
+        .InA(ALUResult),
+        .InB(MemRData),
+        .InC(32'h0),
+        .InD(32'h0),
+        .Sel(MemtoReg),
+        .Result(GRFWData)
+    );
+
+    /***  Trans  ***/
+    wire [31:0] MemWData;
+    MUX_4 #32 Trans_MemRD_MUX(
+        .InA(GRFRData2),
+        .InB(W_GRFWData),
+        .InC(32'h0),
+        .InD(32'h0),
+        .Sel(Trans_MemRD_Sel),
+        .Result(MemWData)
+    );
+
+/****      signal      ****/
+
+    wire MemWrite;
+    wire isMemb;
+    wire [1:0] MemtoReg;
+
+    Control CT(
+        .Instr(Instr),
+        .MemWrite(MemWrite),
+        .isMemb(isMemb),
+        .MemtoReg(MemtoReg),
+        .RegWrite(RegWrite)
+    );
+
+    ATControl AT(
+        .Instr(Instr),
+        .ReadA1(ReadA1),
+        .ReadA2(ReadA2),
+        .WriteA(WriteA)
+    );
+
+    //test
+    // always @(posedge clk) 
+	// begin
+    //     $display("Mem_part : instr = %h", Instr);
+	// end
+
+endmodule

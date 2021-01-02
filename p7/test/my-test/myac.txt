@@ -1,0 +1,4 @@
+intinbubble ac
+muleret ac
+intbeforemul ac
+eretandint ac
